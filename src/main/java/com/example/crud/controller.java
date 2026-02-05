@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class controller {
 	@GetMapping("/display")
-	public String get() {
+	public  get() {
 		return "hi sindhu | you can do it |last try";
 	}
 
